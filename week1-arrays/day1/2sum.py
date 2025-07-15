@@ -1,8 +1,4 @@
-# class Solution:
-#     def twoSum(self, nums: List[int], target: int) -> List[int]:
-#         for val in nums:
-#             print(val)
-        
+ 
 def twoSum(nums,target):
     for i in range(len(nums)):
         for k in range(i+1,len(nums)):
