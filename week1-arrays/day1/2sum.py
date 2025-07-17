@@ -7,3 +7,4 @@ def twoSum(nums,target):
         return [] 
 solution = twoSum([3,4,5,7,],10)
 print(solution)       
+
