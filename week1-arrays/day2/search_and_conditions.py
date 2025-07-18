@@ -27,3 +27,14 @@ if find_me(students,n):
     print('student is in class')
 else:
     print('student not in class')    
+
+# using if statements in loops to add logic
+
+def count_appearance(numbers,target):
+    count = 0
+    for i in numbers:
+        if i == target:
+            count += 1
+    return count
+
+print(count_appearance([1,2,3,4,5,5,8],5))        
